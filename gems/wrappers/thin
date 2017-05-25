@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+if
+  [[ -s "/Users/dilloncoffman/desktop/blog/gems/environment" ]]
+then
+  source "/Users/dilloncoffman/desktop/blog/gems/environment"
+  exec thin "$@"
+else
+  echo "ERROR: Missing RVM environment file: '/Users/dilloncoffman/desktop/blog/gems/environment'" >&2
+  exit 1
+fi
