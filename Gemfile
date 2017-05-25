@@ -21,6 +21,7 @@ gem 'will_paginate', '~> 3.1', '>= 3.1.5'
 gem 'mail_form', '~> 1.6'
 gem 'actionmailer', '~> 5.0.0'
 gem 'rails-ujs', '~> 0.1.0'
+gem 'devise', '~> 4.3'
 
 
 group :development, :test do
