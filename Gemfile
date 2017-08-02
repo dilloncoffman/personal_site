@@ -22,7 +22,7 @@ gem 'mail_form', '~> 1.6'
 gem 'actionmailer', '~> 5.0.0'
 gem 'rails-ujs', '~> 0.1.0'
 gem 'devise', '~> 4.3'
-
+gem 'passenger', '~> 5.1', '>= 5.1.4'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
